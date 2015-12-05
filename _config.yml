@@ -1,2 +1,5 @@
+url: https://hattori.me
+enforce_ssl: hattori.me
+
 gems:
   - jekyll-sitemap

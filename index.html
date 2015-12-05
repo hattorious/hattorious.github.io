@@ -1,6 +1,11 @@
-<doctype html>
+<!doctype html>
 <html lang="en">
   <head>
+    <script type="text/javascript">
+      var host = "hattori.me";
+      if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+    </script>
     <meta charset="utf-8" />
     <meta name="google-site-verification" content="Py9G_6zr9g8HLUhHi1PFXVu92avV_mGdwNGZmfI3_kw" />
     <title>Ross Hattori</title>
@@ -20,7 +25,8 @@
     body { width: 80ex; margin: 1em auto; }
     @media print { body { width:auto; font-size:10pt } a { text-decoration: none } }
     </style>
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="canonical" href="https://hattori.com/" />
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -30,7 +36,7 @@
       ga('create', 'UA-60015348-2', 'auto');
       ga('require', 'linkid', 'linkid.js');
       ga('send', 'pageview');
-  </script>
+    </script>
   </head>
   <body>
     <h1 id="ross_hattori">Ross Hattori</h1>
@@ -80,4 +86,4 @@
     </ul>
 
   </body>
-  </html>
+</html>
