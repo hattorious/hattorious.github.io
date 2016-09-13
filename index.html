@@ -22,6 +22,9 @@
     h5::before { content: "##### " }
     h6::before { content: "###### " }
     ul li::before { content: "* " }
+    strong { font-weight:bolder }
+    strong::before { content: "__" }
+    strong::after { content: "__" }
     body { width: 80ex; margin: 1em auto; }
     @media print { body { width:auto; font-size:10pt } a { text-decoration: none } }
     </style>
